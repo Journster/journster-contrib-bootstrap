@@ -1,6 +1,6 @@
 {
   "name": "journster-contrib-bootstrap",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Static website via cms.journster.com",
   "dependencies": {},
   "devDependencies": {
@@ -18,7 +18,9 @@
   "keywords": [
     "journster",
     "cms", 
-    "bootstrap"
+    "bootstrap",
+    "assemble",
+    "markdown"
   ],
   "author": "Jacob Friis Saxberg <jacob@journster.com>",
   "license": "ISC",
