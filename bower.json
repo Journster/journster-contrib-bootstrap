@@ -6,7 +6,7 @@
     "Jacob Friis Saxberg <jacob@journster.com>"
   ],
   "description": "Static website via cms.journster.com",
-  "keywords": "journster",
+  "keywords": ["journster", "cms", "bootstrap"],
   "private": false,
   "ignore": [
     "**/.*",

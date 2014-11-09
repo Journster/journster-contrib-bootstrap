@@ -16,7 +16,9 @@
     "url": "https://github.com/Journster/journster-contrib-bootstrap.git"
   },
   "keywords": [
-    "journster"
+    "journster",
+    "cms", 
+    "bootstrap"
   ],
   "author": "Jacob Friis Saxberg <jacob@journster.com>",
   "license": "ISC",
