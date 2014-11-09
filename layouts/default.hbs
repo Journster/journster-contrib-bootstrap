@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="eng">
+<head>
+  <title>{{#if title}}{{ title }} | {{/if}}Journster</title>
+  <link rel="stylesheet" href="/lib/the.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<div class="header">
+  <div class="container">
+    <header class="page-header">
+      <ul class="nav nav-pills pull-right">
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <div id="logo">
+        <h1 class="lead"><a href="/"><span class="jlogo"></span>Journster</a></h1>
+      </div>
+    </header>
+  </div>
+</div>
+
+{{> body }}
+
+<div class="container">  
+  <footer>
+    <div class="pull-right">
+      <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.journster.com/" data-text="Cloud based CMS for static websites" data-related="journster" data-count="none">Tweet</a>
+    </div>
+    <ul class="list-inline small text-muted">
+      <li>&copy; Journster</li>
+      <li><a href="mailto:support@journster.com" class="text-muted">support@journster.com</a></li>
+      <li class="hidden-xs">Made in NY by <a href="https://twitter.com/webjay" class="text-muted">@webjay</a></li>
+    </ul>
+  </footer>
+</div>
+
+<script src="//platform.twitter.com/widgets.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-183817-4', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</body>
+</html>

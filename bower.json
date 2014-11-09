@@ -1,0 +1,29 @@
+{
+  "name": "journster-contrib-bootstrap",
+  "version": "0.0.1",
+  "homepage": "http://www.journster.com",
+  "authors": [
+    "Jacob Friis Saxberg <jacob@journster.com>"
+  ],
+  "description": "Static website via cms.journster.com",
+  "keywords": "journster",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    ".tmp"
+  ],
+  "dependencies": {
+    "bootstrap": "3.3.x"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-copy": "~0.7.0",
+    "grunt-contrib-cssmin": "~0.10.0",
+    "grunt-contrib-less": "~0.12.0",
+    "assemble": "~0.4.42"
+  }
+}
