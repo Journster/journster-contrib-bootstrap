@@ -1,10 +1,17 @@
----
-lead: This is very interesting
----
-<article class="container">
+<div class="container">
 
-  <div class="well well-lg">
-    {{ lead }}
+  <div class="row">
+    <div class="col-md-6">
+      <img src="{{ assets }}/{{ index.main-image }}" class="img-responsive img-thumbnail" alt="{{ index.main-image }}">
+    </div>
+    <div class="col-md-6">
+      {{> menu }}
+      {{{ md index.lead }}}
+    </div>
   </div>
+  
+  <section>
+    {{{ md index.body }}}
+  </section>
 
-</article>
+</div>

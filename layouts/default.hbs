@@ -1,34 +1,24 @@
+---
+brand: Ace
+subtitle: inspired by Ace Hotel, New York
+---
 <!doctype html>
 <html lang="eng">
 <head>
-  <title>{{#if title}}{{ title }} | {{/if}}Brand name</title>
+  <title>{{#if title}}{{ title }} | {{/if}}{{ brand }}</title>
   <link rel="stylesheet" href="lib/the.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 
-<div class="header">
-  <div class="container">
-    <header class="page-header">
-      <ul class="nav nav-pills pull-right">
-        <li><a href="about.html">About</a></li>
-      </ul>
-      <span class="lead">Brand name</span>
-    </header>
-  </div>
-</div>
+<header class="page-header">
+  <h1 class="text-center">
+    <a href="./" class="text-muted">{{ brand }}</a>
+    <small>{{ subtitle }}</small>
+  </h1>
+</header>
 
 {{ body }}
-
-<div class="container">  
-  <footer>
-    <div class="pull-right">
-      <a href="https://twitter.com/share" class="twitter-share-button" data-related="journster" data-count="none">Tweet</a>
-    </div>
-  </footer>
-</div>
-
-<script src="//platform.twitter.com/widgets.js" async></script>
 
 </body>
 </html>

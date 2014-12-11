@@ -2,5 +2,16 @@
 title: About
 ---
 <article class="container">
-{{{md 'markdown/about.md'}}}
+
+  <h2>
+    {{ package.name }}
+    <small>{{ package.version }}</small>
+  </h2>
+
+  <p class="lead">{{ package.description }}</p>
+
+  <p>
+    <a href="{{ package.homepage }}">{{ package.homepage }}</a>
+  </p>
+
 </article>

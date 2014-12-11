@@ -27,13 +27,22 @@ module.exports = (grunt) ->
         dest: 'dist/fonts/'
         expand: true
         filter: 'isFile'
+      images:
+        cwd: 'images/'
+        src: '*'
+        dest: 'dist/images/'
+        expand: true
+        filter: 'isFile'
 
     assemble:
       options: 
         flatten: true
         layoutdir: 'layouts'
         layout: 'default.hbs'
-      handlebars:
+        partials: ['partials/*.hbs']
+        assets: 'dist/images'
+        data: ['package.json', 'data/*.json']
+      pages:
         files:
           'dist/': ['content/*.hbs']
         
