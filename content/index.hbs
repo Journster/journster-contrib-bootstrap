@@ -1,3 +1,7 @@
+---
+lead: markdown/index-lead.md
+content: markdown/index-body.md
+---
 <div class="container">
 
   <div class="row">
@@ -6,12 +10,12 @@
     </div>
     <div class="col-md-6">
       {{> menu }}
-      {{{ md index.lead }}}
+      {{{ md lead }}}
     </div>
   </div>
   
   <section>
-    {{{ md index.body }}}
+    {{{ md content }}}
   </section>
 
 </div>
